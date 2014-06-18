@@ -31,3 +31,96 @@
 	-webkit-margin-after: 0em;
 	-webkit-padding-start: 0px;
 }
+
+.btn-large {
+	padding: 20px 55px;
+	font-size: 16pt;
+	display: inline-block;
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	border: 0;
+}
+
+.btn-medium {
+	padding: 12px 30px;
+	display: inline-block;
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	border: 0;
+}
+
+.btn-small {
+	padding: 5px 5px;
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	border: 0;
+}
+
+
+.nav-menu li{
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	background-color: red;
+	padding: 12px 30px;
+	border: 0;
+}
+
+.nav-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+li:last-child > .nav-link {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+li:first-child > .nav-link {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.page-nav li {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.page-nav a {
+	color: red;
+}
+
+.page-nav span {
+	color: gray;
+}
+
+.box-icon {
+	display: inline-block;
+	width: 80px;
+}
+
+.comments {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tab-list li {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+}
+
+.tab-content {
+	display: block;
+}
+
+p:first-child > .tab-content {
+	display: inline-block;
+}
