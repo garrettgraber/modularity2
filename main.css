@@ -1,0 +1,33 @@
+
+
+
+.center {
+	text-align: center;
+}
+
+.center > * {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin: 20px;
+}
+
+.vertical-center {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.horizontal li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.horizontal-list-element {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-padding-start: 0px;
+}
