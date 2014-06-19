@@ -67,7 +67,6 @@
 	display: inline-block;
 	float: left;
 	vertical-align: top;
-	background-color: red;
 	padding: 12px 30px;
 	border: 0;
 }
@@ -77,24 +76,35 @@
 	text-decoration: none;
 }
 
-li:last-child > .nav-link {
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+.nav-menu>:last-child {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 
-li:first-child > .nav-link {
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
+.nav-menu>:first-child {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 }
 
+.nav-link {
+	background-color: red;
+}
+
+.nav-link:hover {
+	background-color: CornflowerBlue;
+}
+
+.page-nav {
+	height: 30px;
+}
 .page-nav li {
 	display: inline-block;
-	margin-right: 5px;
-	margin-left: 5px;
+	margin: 10px;
 }
 
 .page-nav a {
 	color: red;
+	padding-bottom: 5px;
 }
 
 .page-nav span {
@@ -111,16 +121,49 @@ li:first-child > .nav-link {
 	vertical-align: top;
 }
 
-.tab-list li {
-	display: inline-block;
-	float: left;
-	vertical-align: top;
+.tab-list {
+	padding-left: 10px;
+}
+
+.tab-list li a {
+	text-decoration: none;
 }
 
 .tab-content {
 	display: block;
+	clear: left;
+	padding: 10px;
+    border: solid 1px #aad;
+    border-radius: 5px;
+}
+
+.tab-list li {
+	display: inline-block;
+	float: left;
+	position: relative;
+	vertical-align: top;
+	padding: 8px;
+	border: solid 1px #aad;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 0;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 p:first-child > .tab-content {
 	display: inline-block;
+}
+
+.tab-active {
+	border-bottom-color: #fff;
+}
+
+/* .tab-list>:nth-child(2) {
+	border-bottom-color: #fff;
+}
+*/
+
+.tab-list div {
+	color: blue;
 }
